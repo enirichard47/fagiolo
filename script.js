@@ -3,6 +3,8 @@ const PROJECT = {
   buyUrl: "https://pump.fun/coin/6Ya1cE1A8Vi42LsUmsT3yEFEnDe8umzee6jjQPuupump",
   xUrl: "https://x.com/fagiolo26",
   telegramUrl: "https://t.me/fagiolo26",
+  tiktokUrl: "https://vm.tiktok.com/ZN9fUK2nM8K3w-YrNAY/",
+  lockUrl: "https://stakepoint.app/locks/cmwe6hgzj0000ju08lqsql6ze?t=1794526627",
   dexUrl: "https://dexscreener.com/solana/6Ya1cE1A8Vi42LsUmsT3yEFEnDe8umzee6jjQPuupump",
 };
 
@@ -37,6 +39,8 @@ function wireLinks(selector, url) {
 wireLinks(".js-buy-link", PROJECT.buyUrl);
 wireLinks(".js-x-link", PROJECT.xUrl);
 wireLinks(".js-telegram-link", PROJECT.telegramUrl);
+wireLinks(".js-tiktok-link", PROJECT.tiktokUrl);
+wireLinks(".js-lock-link", PROJECT.lockUrl);
 wireLinks(".js-dex-link", PROJECT.dexUrl);
 
 // Dynamic Chart Initialization
